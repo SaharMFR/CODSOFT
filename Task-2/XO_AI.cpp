@@ -198,13 +198,18 @@ void XO_GameManager::run() {
 
             cout << "\n\nLet's start the game ..\n";
 
-            Board myBoard(player, computer);
+            Board myBoard;
 
 
             if (pNum == 2) {
+		myBoard.p1 = computer;
+		myBoard.p2 = player;
                 computer.getMove(myBoard);
                 myBoard.updateBoard(computer.row, computer.column, comSym);
-            }
+            } else {
+		myBoard.p1 = player;
+		myBoard.p2 = computer;
+	    }
 
             myBoard.displayBoard();
 

@@ -28,7 +28,8 @@ public:
     char board[3][3] = {{' ', ' ', ' '}, {' ', ' ', ' '}, {' ', ' ', ' '}};
     Player p1;
     Player p2;
-
+	
+    Board(){}
     Board(Player player1, Player player2) {
         p1 = player1;
         p2 = player2;
