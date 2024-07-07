@@ -1,9 +1,9 @@
 //
-// Created by Sahar Mohamed on 29/08/2023.
+// Created by Sahar Mohamed on 06/07/2024.
 //
 
-#ifndef XO_AI_CODSOFT_XO_AI_H
-#define XO_AI_CODSOFT_XO_AI_H
+#ifndef XO_GAME_H
+#define XO_GAME_H
 
 #include <iostream>
 
@@ -54,4 +54,4 @@ public:
     void run();
 };
 
-#endif //XO_AI_CODSOFT_XO_AI_H
+#endif

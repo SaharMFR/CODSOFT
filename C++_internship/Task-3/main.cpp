@@ -1,4 +1,4 @@
-#include "XO_AI.h"
+#include "XO_Game.h"
 
 int main() {
     XO_GameManager myGame;
