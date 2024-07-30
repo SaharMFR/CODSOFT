@@ -15,3 +15,7 @@ A calculator program that performs basic arithmetic operations such as addition,
 **3. Tic-Tac-Toe Game ( Task 3 ) :**
 
 Simple console-based Tic-Tac-Toe game that allows two players to play against each other.
+
+**4. To-Do List ( Task 4 ) :**
+
+Simple console-based to-do list manager that allows users to add, view, and delete tasks.
